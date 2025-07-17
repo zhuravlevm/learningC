@@ -68,23 +68,6 @@ int main (){
 
     Stack_T* stack = create_stack();
 
-    push(stack, 5);
-    pop(stack);
-
-    for (int i = 0; i < stack -> size; i ++){
-        printf("%d \n", stack -> data[i]);
-    }
-
-    push(stack, 3);
-    printf("%d", peek(stack));
-
-    pop(stack);
-    
-    for (int i = 0; i < stack -> size; i ++){
-        printf("%d \n", stack -> data[i]);
-    }
-
     return 0;
 }
-
 
